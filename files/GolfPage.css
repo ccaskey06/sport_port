@@ -1,0 +1,112 @@
+.imgBack img {
+	position: relative;
+	width: 100%;
+	opacity: 0.7;
+}
+
+.brand {
+	position: absolute;
+	top: 800px;
+	left: 1000px;
+	height: 400px;
+	width: 25%;
+	background-color: black;
+	opacity: 0.5;
+	border-radius: 50px;
+}
+
+.brand:hover {
+	background-color: yellow;
+	color: black;
+}
+
+.brand a {
+	text-decoration: none;
+	color: white;
+	font-size: 150px;
+	text-align: center;
+}
+
+.brand a:hover {
+	background-color: yellow;
+	color: black;
+}
+
+.equipment {
+	position: absolute;
+	top: 800px;
+	height: 400px;
+	right: 500px;
+	width: 25%;
+	background-color: black;
+	opacity: 0.5;
+	border-radius: 50px;
+}
+
+.equipment a:hover {
+	background-color: yellow;
+	color: black;
+}
+
+.equipment a {
+	color: white;
+	font-size: 150px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.leftBar {
+	background-color: blue;
+	color: black;
+	height: 400px;
+	width: 400px;
+	left: 0px;
+	top: 700px;
+	position: absolute;
+}
+
+.rightSide {
+	background-color: #92aac7;
+	overflow: hidden;
+	/* handle overflow for SportPort icon */
+}
+
+.currentClicked {
+	font-family: Arial;
+	float: right;
+	display: block;
+	background-color: white;
+	text-align: center;
+	padding: 20px 40px;
+	text-decoration: none;
+	font-size: 75px;
+	color: black;
+}
+
+.unclicked {
+	font-family: Arial;
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 40px;
+	text-decoration: none;
+	font-size: 75px;
+}
+
+.unclicked:hover {
+	color: black;
+}
+
+.container {
+	height: 100vh;
+  zoom: 100%;
+}
+
+.topBar {
+	background-color: white;
+}
+
+.imageBar {
+	display: inline-block;
+}

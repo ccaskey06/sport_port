@@ -1,0 +1,115 @@
+.container {
+	background-color: #3CB371;
+	height: 100vh;
+	zoom: 100%;
+	height: 100%;
+}
+
+.topBar {
+	background-color: white;
+	display: inline-block;
+	width: 100%;
+}
+
+.topBar img {
+	height: 400px;
+}
+
+.rightSide {
+	background-color: #92aac7;
+	overflow: hidden;
+	/* handle overflow for SportPort icon */
+}
+
+.currentClicked {
+	font-family: Arial;
+	float: right;
+	display: block;
+	background-color: white;
+	text-align: center;
+	padding: 20px 40px;
+	text-decoration: none;
+	font-size: 75px;
+	color: black;
+}
+
+.unclicked {
+	font-family: Arial;
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 40px;
+	text-decoration: none;
+	font-size: 75px;
+}
+
+.unclicked:hover {
+	color: black;
+}
+
+
+
+.intro p {
+	font-size: 100px;
+	text-align: center;
+}
+
+/*.firstStep form {
+	width: 500px;
+	margin: 50px auto;
+}*/
+
+/*.searchItem {
+	padding: 8px 15px;
+	background: rgba(50, 50, 50, 0.2);
+	border: 0px solid #dbdbdb;
+}*/
+
+.middleIcons {
+	text-align: center;
+	width: 2000px;
+	margin: 0 auto;
+	display: table;
+}
+
+.leftIcon {
+	float: left;
+	margin-right: 200px;
+	display: table-cell;
+}
+
+.middleIcon {
+	float: left;
+	margin-right: 200px;
+	display: table-cell;
+}
+
+.rightIcon {
+	float: left;
+	display: table-cell;
+}
+
+.middleIcons p {
+	font-size: 20px;
+}
+
+/*.input[type=text] {
+	width: 130px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url('searchicon.png');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}*/
+
+/* When the input field gets focus, change its width to 100% */
+/*input[type=text]:focus {
+    width: 50%;
+}*/

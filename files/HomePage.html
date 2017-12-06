@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<script src="HomePageScript.js" type="text/javascript"></script>
+	<link type = "text/css" rel = "stylesheet" href = "HomePage.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<title>
+		SportPort | Home
+	</title>
+
+</head>
+
+<body>
+
+	<div class = "topBar"> <!-- Div for SportPort logo -->
+			<img src = "Logo.png" alt = "SportPort | Tennis & Golf" />
+	</div>
+
+	<div class = "container"> <!-- Div covering entire webpage -->
+
+
+
+		<div class = "rightSide">
+			<a href = "More.html" class="unclicked">MORE...</a>
+			<a href = "TennisPage.html" class="unclicked">TENNIS</a>
+			<a href = "GolfPage.html" class="unclicked">GOLF</a>
+			<a href = "HomePage.html" class="currentClicked">HOME</a>
+		</div>
+
+		<div>
+			<div class="intro">
+				<p>SportPort searches all the top golf and tennis warehouses <br />
+						and websites to find the best deals on all your equipment needs! <br />
+						You can trust that the deal you find is the best one out there.
+				</p>
+
+				<p>We make it easy! Search the specific product or use our tabs,<br />
+						and we'll give you all the best deals for that product!</p>
+
+				<div class="middleIcons">
+					<div class="leftIcon">
+						<img src="https://cdn3.iconfinder.com/data/icons/wpzoom-developer-icon-set/500/67-512.png" height=550 width=550 class="searchIcon"/><br />
+						<label for="searchIcon">Know what you want?</label><br />
+						<p>Use our search bar!</p>
+					</div>
+					<div class="middleIcon">
+						<img src="https://d30y9cdsu7xlg0.cloudfront.net/png/2030-200.png" height=550 width=550 class="clicker"/><br />
+						<label for="clicker">Not sure what product?</label><br />
+						<p>Navigate with out tabs!</p>
+					</div>
+					<div class="rightIcon">
+						<img src="https://image.flaticon.com/icons/png/512/36/36601.png" height=550 width=550 class="question"/><br />
+						<label for="question">Have questions?</label><br />
+						<p for="question">Feel free to send us an email!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class = "contactContainer">
+			<label class="contactLabel">Contact Form</label>
+			<form>
+
+		    <label for="fname">Full Name</label><br />
+		    <input type="text" class="fname" name="fullname" placeholder="Your name.."><br />
+
+		    <label for="email">Email</label><br />
+		    <input type="text" class="email" name="contactEmail" placeholder="Your email.."><br />
+
+		    <label for="subject">Subject</label><br />
+		    <textarea class="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br />
+
+		    <input type="submit" value="Send" onclick="showAlert()"/>
+				<input type="reset" value="Reset" />
+
+		  </form>
+		</div>
+
+	</div>
+
+</body>
+
+</html>
